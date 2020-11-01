@@ -117,8 +117,7 @@ For this practice, add to the Result Section the following:
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
 
 ### Demonstration
-Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.
+Enlace del video: https://drive.google.com/file/d/1UuWAlogj2ASxa7DtII5NUNk2taFWi2Kz/view?usp=sharing
 
 ## Conclusion
-
-In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
+Primero que nada realizamos la configuración del MPLAB para así poder trabajar en un programa. Esta práctica me ayudó a familiarizarme con el programa de MPLAB en donde vimos como puedes manipular las entradas de un programa de un simple codigo y como se ven reflejadas en los SFRs o los registros.
