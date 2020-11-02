@@ -87,8 +87,9 @@ For this practice, add to the Result Section the following:
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
 
 ### Demonstration
-Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.
+
+Enlace del video: https://drive.google.com/file/d/1nIT9HRlKgQpMVP12gGXIWDTYPWAugTbx/view?usp=sharing
 
 ## Conclusion
-
-In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
+Esta practica me ayudo a entender y a utilizar los diagramas de flujo. Una vez entendido el problema secuencial se puede proceder a realizar la programación con el
+MPLAB. Si no se hubieran vencido las licensias, hubiera estado padre probar el programa para ver como funcionaba. Cuando lo corres solo con el MPLAB siempre se queda en loop porque nunca se presionan los PushButtons y nunca entra al loop del LarsonDisplay, solo se queda asignando bits random a LATB.
