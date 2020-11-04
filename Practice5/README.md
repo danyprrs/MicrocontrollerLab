@@ -113,7 +113,7 @@ For this practice, add to the Result Section the following:
     - image of the BUILD SUCCESSFUL window.
     - image of each modified register for the portInit() function when you debug the code step by step. TIP: Put a breakpoint at the first line of the porInit( ) function and open the IO window (Window → Debugging → IO View). Also, modify the Conclusions Section and your names at the top of the document.
     
-En las imágenes subidas se pueden ver los valores de ANSEL A y B, los valores de LATA, y los valores de TRIS A y B. Cuando se corre el programa se puede observar los cambios que van teniendo las variables, basicamente antes, durante y despues de correrse las instrucciones. También se adjuntó la imagen que muestra una compilación correcta.
+En las imágenes subidas se pueden ver los valores de ANSEL A y B, los valores de LATA, y los valores de TRIS A y B. Cuando se corre el programa se puede observar los cambios que van teniendo las variables, basicamente antes, durante y despues de correrse las instrucciones. También se adjuntó la imagen que muestra una compilación correcta del programa.
 
 ### File uploads
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
