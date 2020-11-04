@@ -82,6 +82,12 @@ For this practice, add to the Result Section the following:
     - image of each modified register for the portInit() function when you debug the code step by step. TIP: Put a breakpoint at the first line of the porInit( ) function and open the IO window (Window → Debugging → IO View). Also, modify the Conclusions Section and your names at the top of the document.
     - image of the connections between the Curiositiy board and  your  minimum  card  system (Proteus).  The  image must contain a short description, and a footnote.
     - description of the problems found and solutions.
+    
+Para esta práctica lo que se realizó fue la programación de un "Wack a Mole". Se tenía pensado realizar la simulación del programa en Proteus, sin embargo se vencieron las licencias. Por ello sólo se dara la explicación del programa y su funcionamiento.
+
+Lo primero a realizar fue incluir las librerías, se copió el archivo Header, que se tenía en el repositorio y se pegó en el programa, es el llamado device_config.h.
+Ahora podemos trabajar en el programa. Se pone una función para inicializar los puertos, llamada portInit(), aquí se declaran el puerto B y D como digitales, y el puerto D como input.
+Después se procede a realizar la función principal del programa, en el main. Primero se activa de manera aleatoria un LED utilizando la función de rand(), dependiendo de qué numero de la funcion de rand(), este se coloca un 1 en la posición (bit) que indique el mismo. Luego se esperan 500ms. Después se busca el estado del botón, si este es verdadero, se inicia la función del cíclo del Larson Display, el cual checa del LED 0 al LED 7, que encienda N LED, luego espera 300ms y después del LED 7 al 0, y esoera otros 300ms. Ahora bien, si el botón está apagado se checa el "else" que revisa de nuevo si el botón está presionado, si es que se cumple esta condición de nuevo se va al Cíclo del Larson Display.
 
 ### File uploads
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
@@ -91,5 +97,4 @@ Commit and push the file main.c created once you completed all the steps of the 
 Enlace del video: https://drive.google.com/file/d/1nIT9HRlKgQpMVP12gGXIWDTYPWAugTbx/view?usp=sharing
 
 ## Conclusion
-Esta practica me ayudo a entender y a utilizar los diagramas de flujo. Una vez entendido el problema secuencial se puede proceder a realizar la programación con el
-MPLAB. Si no se hubieran vencido las licensias, hubiera estado padre probar el programa para ver como funcionaba. Cuando lo corres solo con el MPLAB siempre se queda en loop porque nunca se presionan los PushButtons y nunca entra al loop del LarsonDisplay, solo se queda asignando bits random a LATB.
+Esta practica me ayudo a entender y a utilizar los diagramas de flujo. Una vez entendido el problema secuencial se puede proceder a realizar la programación con el MPLAB. Si no se hubieran vencido las licensias, hubiera estado padre probar el programa para ver como funcionaba. Cuando lo corres solo con el MPLAB siempre se queda en loop porque nunca se presionan los PushButtons y nunca entra al loop del LarsonDisplay, solo se queda asignando bits random a LATB.
