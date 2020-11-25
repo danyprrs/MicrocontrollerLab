@@ -104,5 +104,8 @@ Commit and push the file main.c created once you completed all the steps of the 
 ### Demonstration
 Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.
 
+Video de la explicación: https://drive.google.com/file/d/1DezrKQh__3uv9KPvPBnu-Tj9tTGPtHzd/view?usp=sharing
 ## Conclusion
 In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
+
+Esta práctica me ayudó a comprender mejor la congiguración del microcontrolador con los GPIOs, es una lástima que no pudimos simular ciertas prácticas como esta, sin embargo siento que fue relativamente sencilla y tenia una buena idea de como se vería en al vida real. En general siento que la práctica me familiarizó aún más con la configuración de los pines.
