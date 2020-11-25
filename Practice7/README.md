@@ -106,11 +106,7 @@ Cuando un botón es presionado por primera vez, el valor del número o letra deb
 
 Cuando un nuevo boton se presione, el último numero debe ser cambiado por los cuatro LEDs más significativos y con ello el nuevo numero debe ser mostroado en los cuatro LEDs menos significativos.
 
-Aquí se declaran las funciones de si se quiere interrupción de alta prioridad o baja prioridad.
-
-Aquí esta la función de inicialización de los puertos.
-
-En esta parte, mientras LATB = 14 y si se presiona cualquiera de los BITS del 4 al 7 como salidas, entonces LATD Será igual al 13 para el bit 7, 12 para el 6, 11 para el 5 y 10 para el bit 4.
+Mientras LATB = 14 y si se presiona cualquiera de los BITS del 4 al 7 como salidas, entonces LATD Será igual al 13 para el bit 7, 12 para el 6, 11 para el 5 y 10 para el bit 4.
 
 ### File uploads
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
